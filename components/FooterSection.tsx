@@ -41,11 +41,11 @@ const FooterSection = () => {
       <div className="px-32 w-full">
         <div className="flex md:flex-row flex-col gap-8 w-full">
           <div className="md:w-9/12 w-full flex flex-col">
-            <h2 className="md:text-8xl text-xl font-bold text-[#FFBD59] mb-4">
+            <h2 className="md:text-6xl text-xl font-bold text-[#FFBD59] mb-4">
               How can we help you ?
             </h2>
 
-            <div className="flex md:w-10/12 w-full relative">
+            <div className="flex md:w-9/12 w-full relative">
               <IoSearchOutline
                 fontSize={40}
                 fill="#FFBD59"

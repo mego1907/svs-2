@@ -36,7 +36,7 @@ const SubscribeSection = () => {
             Get our latest updates!
           </h2>
 
-          <div className="flex items-center justify-center w-full pt-10">
+          <div className="flex items-center justify-center w-8/12 pt-10">
             <div className="translate-x-12">
               <div className="w-14 h-14 rounded-full flex items-center justify-center bg-[#FFBD59]">
                 <AiOutlineMail fontSize={30} />

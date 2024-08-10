@@ -107,7 +107,7 @@ const Header: React.FC = () => {
           className="flex flex-col justify-center items-start md:mt-40 -translate-x-60 opacity-0"
           ref={textRef}
         >
-          <h2 className="md:text-[11rem] font-bold leading-[10rem] text-[#ffbd58]">
+          <h2 className="md:text-[8rem] font-bold leading-[7rem] text-[#ffbd58]">
             SVS COIN
           </h2>
 

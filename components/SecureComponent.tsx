@@ -92,11 +92,7 @@ const SecureComponent = () => {
           <div className="flex flex-col gap-10 items-center justify-center">
             <div className="flex justify-end relative">
               <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
-                <img
-                  src="/assets/imgs/safe.png"
-                  alt=""
-                  className="md:scale-150"
-                />
+                <img src="/assets/imgs/safe.png" alt="" className="" />
               </div>
 
               <div className="flex  bg-[#FFBD59] p-6 w-9/12 rounded-md pl-32 relative">
@@ -116,11 +112,7 @@ const SecureComponent = () => {
 
             <div className="flex justify-end relative">
               <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
-                <img
-                  src="/assets/imgs/protected.png"
-                  alt=""
-                  className="md:scale-150"
-                />
+                <img src="/assets/imgs/protected.png" alt="" className="" />
               </div>
 
               <div className="flex  bg-[#FFBD59] p-6 w-9/12 rounded-md pl-32 relative">
@@ -145,11 +137,7 @@ const SecureComponent = () => {
 
             <div className="flex justify-end relative">
               <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
-                <img
-                  src="/assets/imgs/easy.png"
-                  alt=""
-                  className="md:scale-150"
-                />
+                <img src="/assets/imgs/easy.png" alt="" className="" />
               </div>
 
               <div className="flex  bg-[#FFBD59] p-8 w-9/12 rounded-md pl-32 relative">
