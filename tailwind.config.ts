@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         mainBg: "linear-gradient(to right bottom, #111827, #111827, #09092E)",
         "header-gradient":
-          "linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(62,45,48,1) 27%, rgba(255,189,88,1) 100%);",
+          "linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(181,132,19,1) 100%)",
         "why-image": "url('/assets/imgs/why-image.png')",
       },
       colors: {

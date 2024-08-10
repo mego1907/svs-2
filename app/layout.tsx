@@ -63,7 +63,7 @@ export default function RootLayout({
         </head> */}
 
         <body className={dm_sans.className}>
-          <ParticlesBackrgound />
+          {/* <ParticlesBackrgound /> */}
 
           <SocialMedia />
 

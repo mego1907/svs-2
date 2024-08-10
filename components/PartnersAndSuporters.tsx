@@ -47,7 +47,7 @@ const PartnersAndSuporters = () => {
   ];
 
   return (
-    <div className="h-screen w-full flex items-center justify-center bg-header-gradient">
+    <div className="min-h-screen w-full flex items-center justify-center bg-header-gradient">
       <div className="lg:px-32 md:px-20 px-10">
         <div className="flex items-center justify-center flex-col">
           <TitleWithThe title="PARTNERS &" theClassName="text-2xl" />

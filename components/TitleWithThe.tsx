@@ -16,14 +16,14 @@ const TitleWithThe = ({
     <div className="relative flex">
       <p
         className={classNames(
-          `md:text-5xl font-bold text-white translate-x-5 -rotate-90 ${theClassName}`
+          `md:text-5xl text-2xl font-bold text-white translate-x-5 -rotate-90 ${theClassName}`
         )}
       >
         the
       </p>
       <h5
         className={classNames(
-          `md:text-8xl font-bold text-[#FFBD59] ${titleClassName}`
+          `md:text-8xl text-5xl font-bold text-[#FFBD59] ${titleClassName}`
         )}
       >
         {title}

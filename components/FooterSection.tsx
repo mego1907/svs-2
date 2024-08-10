@@ -38,7 +38,7 @@ const FooterSection = () => {
 
   return (
     <div className="flex flex-col items-center w-full bg-header-gradient justify-center p-10 text-white">
-      <div className="px-32 w-full">
+      <div className="md:px-32 w-full">
         <div className="flex md:flex-row flex-col gap-8 w-full">
           <div className="md:w-9/12 w-full flex flex-col">
             <h2 className="md:text-6xl text-xl font-bold text-[#FFBD59] mb-4">

@@ -101,13 +101,13 @@ const Header: React.FC = () => {
   }, [volumeCounter]);
 
   return (
-    <div className="h-screen w-full overflow-hidden md:mt-0 mt-32 bg-header-gradient">
+    <div className="min-h-screen w-full overflow-hidden md:mt-0 mt:pt-0 pt-36 bg-header-gradient">
       <div className="md:px-32 grid lg:grid-cols-[2fr_1.5fr] h-full px-5">
         <div
-          className="flex flex-col justify-center items-start md:mt-40 -translate-x-60 opacity-0"
+          className="flex md:mb-0 mb-5 flex-col justify-center md:items-start text-center items-center md:text-left md:mt-40 -translate-x-60 opacity-0"
           ref={textRef}
         >
-          <h2 className="md:text-[8rem] font-bold leading-[7rem] text-[#ffbd58]">
+          <h2 className="md:text-[8rem] text-2xl font-bold md:leading-[7rem] text-[#ffbd58]">
             SVS COIN
           </h2>
 
@@ -119,16 +119,16 @@ const Header: React.FC = () => {
               MARKETING
             </p>
             <p className="md:text-8xl font-bold">PLATFORM</p>
-            <p className="md:text-lg">
+            <p className="md:text-lg mb-2">
               SVS COIN is the first currency to change the world of transaction
             </p>
           </div>
 
-          <div className="flex md:gap-8 gap-4 md:mt-16 md:mb-24 ">
+          <div className="flex flex-col md:flex-row md:gap-8 gap-4 md:mt-16 md:mb-24 w-full px-10">
             <a
               href="/whitepaper"
               target="_blank"
-              className="flex flex-col gap-2 border md:p-3 rounded-lg md:px-6 items-center justify-center p-1 bg-[#ffbd58]"
+              className="flex flex-col gap-2 border md:p-3 md:w-auto w-full rounded-lg md:px-6 items-center justify-center p-1 bg-[#ffbd58]"
             >
               <span className="md:text-lg text-sm font-bold">MARKET PRICE</span>
               <div className="flex justify-between w-full">

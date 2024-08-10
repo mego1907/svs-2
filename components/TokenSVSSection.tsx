@@ -55,8 +55,8 @@ const TokenSVSSection = () => {
 
   return (
     <div className="bg-header-gradient flex justify-center items-center">
-      <div className="px-32">
-        <div className="grid grid-cols-2">
+      <div className="md:px-32">
+        <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col items-center justify-center">
               <TitleWithThe
@@ -65,11 +65,11 @@ const TokenSVSSection = () => {
                     SVS <span className="text-white">PROJECT</span>
                   </span>
                 }
-                titleClassName="text-[6rem]"
+                titleClassName="md:text-[6rem]"
               />
               <button
                 type="button"
-                className="text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4"
+                className="md:text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4"
               >
                 <IoDocumentTextOutline />
                 <span>SVS TOKEN</span>

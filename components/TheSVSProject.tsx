@@ -5,8 +5,8 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 const TheSVSProject = () => {
   return (
     <div className="h-screen bg-header-gradient w-full">
-      <div className="p-32">
-        <div className="grid grid-cols-2">
+      <div className="md:p-32">
+        <div className="grid md:grid-cols-2">
           <div className="flex flex-col items-center justify-center">
             <TitleWithThe
               title={
@@ -14,11 +14,11 @@ const TheSVSProject = () => {
                   SVS <span className="text-white">PROJECT</span>
                 </span>
               }
-              titleClassName="text-[6rem]"
+              titleClassName="md:text-[6rem]"
             />
             <button
               type="button"
-              className="text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4"
+              className="md:text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4"
             >
               <IoDocumentTextOutline />
               <span>WHITE PAPER</span>
@@ -28,7 +28,7 @@ const TheSVSProject = () => {
             <img
               src="/assets/imgs/Clip path group (8).png"
               alt=""
-              className="scale-110"
+              className="md:scale-110"
             />
           </div>
         </div>

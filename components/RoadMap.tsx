@@ -8,16 +8,20 @@ const RoadMap = () => {
       className="md:py-20 py-10 w-full md:px-0 px-4 bg-header-gradient"
       id="roadmap"
     >
-      <div className="px-32">
+      <div className="md:px-32">
         <div className="flex flex-col justify-center items-center gap-32">
           <TitleWithThe
             title="ROAD MAP"
-            titleClassName="text-8xl"
+            titleClassName="md:text-8xl text-6xl"
             theClassName=""
           />
 
-          <div className="w-full flex items-center justify-center ">
-            <img src="/assets/imgs/Group 30.png" alt="" className="scale-125" />
+          <div className="w-full flex items-center justify-center md:px-0 px-8">
+            <img
+              src="/assets/imgs/Group 30.png"
+              alt=""
+              className="md:scale-125"
+            />
           </div>
 
           <p className="text-xl text-white">

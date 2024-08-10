@@ -57,13 +57,13 @@ const NewsSection = () => {
 
         <div className="grid items-center justify-center md:grid-cols-3 gap-20 mt-20">
           <div className="flex items-center justify-center">
-            <div className="w-96 relative">
+            <div className="md:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 text-7xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
                 <span>
                   B<span className="text-[#FFBD59]">LOGS</span>
                 </span>
@@ -72,13 +72,13 @@ const NewsSection = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="w-96 relative">
+            <div className="md:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 text-7xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
                 <span>
                   M<span className="text-[#FFBD59]">EDIA</span>
                 </span>
@@ -87,13 +87,13 @@ const NewsSection = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="w-96 relative">
+            <div className="md:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 text-7xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
                 <span>
                   N<span className="text-[#FFBD59]">EWS</span>
                 </span>

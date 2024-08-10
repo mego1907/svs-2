@@ -67,7 +67,7 @@ const SecureComponent = () => {
     <div className="md:py-10 w-full md:px-0 px-3 bg-header-gradient">
       <div className="md:px-32">
         <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center md:text-left text-center justify-center">
             <div>
               <p className="md:text-5xl font-bold md:leading-[3rem]">
                 POWERED BY
@@ -81,7 +81,7 @@ const SecureComponent = () => {
               <p className="md:text-[12rem] font-bold md:leading-[10rem]">
                 CHAIN
               </p>
-              <p className="md:text-xl ml-3">
+              <p className="md:text-xl ml-3 text-sm md:mt-auto mt-5">
                 The technology that ensures the highest level of security and
                 transparency in transactions. By decentralizing data storage and
                 processing
@@ -90,13 +90,13 @@ const SecureComponent = () => {
           </div>
 
           <div className="flex flex-col gap-10 items-center justify-center">
-            <div className="flex justify-end relative">
-              <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
+            <div className="flex justify-end md:text-left text-center relative">
+              <div className="hidden items-center absolute md:left-28 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/safe.png" alt="" className="" />
               </div>
 
-              <div className="flex  bg-[#FFBD59] p-6 w-9/12 rounded-md pl-32 relative">
-                <div className="-rotate-90 translate-x-1 absolute left-0 top-1/2 -translate-y-1/2">
+              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
+                <div className="md:-rotate-90 md:translate-x-1 md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2">
                   <span className="text-6xl w-8 font-bold tracking-wide uppercase">
                     SAFE
                   </span>
@@ -110,13 +110,13 @@ const SecureComponent = () => {
               </div>
             </div>
 
-            <div className="flex justify-end relative">
-              <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
+            <div className="flex justify-end md:text-left text-center relative">
+              <div className="md:flex hidden items-center absolute md:left-28 left-10 top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/protected.png" alt="" className="" />
               </div>
 
-              <div className="flex  bg-[#FFBD59] p-6 w-9/12 rounded-md pl-32 relative">
-                <div className="-rotate-90 absolute -left-24 top-1/2 -translate-y-1/2">
+              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
+                <div className="md:-rotate-90 md:absolute -left-24 top-1/2 -translate-y-1/2">
                   <span className="text-6xl w-8 font-bold tracking-wide uppercase">
                     PROTECTED
                   </span>
@@ -135,13 +135,13 @@ const SecureComponent = () => {
               </div>
             </div>
 
-            <div className="flex justify-end relative">
-              <div className="flex items-center absolute md:left-32 left-10 top-1/2 -translate-y-1/2 z-10">
+            <div className="flex justify-end md:text-left text-center relative">
+              <div className="md:flex hidden items-center absolute md:left-28 left-10 top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/easy.png" alt="" className="" />
               </div>
 
-              <div className="flex  bg-[#FFBD59] p-8 w-9/12 rounded-md pl-32 relative">
-                <div className="-rotate-90 translate-x-1 absolute left-0 top-1/2 -translate-y-1/2">
+              <div className="flex md:flex-row flex-col  bg-[#FFBD59] p-8 md:w-9/12 rounded-md md:pl-32 relative">
+                <div className="md:-rotate-90 translate-x-1 md:absolute left-0 top-1/2 -translate-y-1/2">
                   <span className="text-6xl w-8 font-bold tracking-wide uppercase">
                     Easy
                   </span>

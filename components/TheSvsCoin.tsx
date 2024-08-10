@@ -5,7 +5,7 @@ import TitleWithThe from "./TitleWithThe";
 const TheSvsCoin = () => {
   return (
     <div className="w-full md:py-20 bg-header-gradient">
-      <div className="px-32">
+      <div className="md:px-32">
         <div className="flex flex-col gap-20">
           <ValuesSection />
           <VisionSection />
@@ -18,9 +18,9 @@ const TheSvsCoin = () => {
 
 const ValuesSection = () => {
   return (
-    <div className="grid grid-cols-2 gap-20">
-      <div>
-        <div className="flex gap-2 items-end">
+    <div className="grid md:grid-cols-2 gap-20">
+      <div className="w-full">
+        <div className="flex gap-2 md:items-end">
           <div>
             <TitleWithThe
               title="VALUES"
@@ -28,7 +28,7 @@ const ValuesSection = () => {
               titleClassName="text-2xl bg-[#FFBD59] text-white rounded-md"
             />
           </div>
-          <span className="text-xl">
+          <span className="md:text-xl text-lg">
             At SVS Coin, we are driven by a commitment to innovation,
             continuously advancing the
           </span>
@@ -52,7 +52,7 @@ const ValuesSection = () => {
 
 const VisionSection = () => {
   return (
-    <div className="grid grid-cols-2 gap-20">
+    <div className="grid md:grid-cols-2 gap-20">
       <div className="flex justify-end">
         <img src="/assets/imgs/Group 19.png" />
       </div>
@@ -83,7 +83,7 @@ const VisionSection = () => {
 
 const MissionSection = () => {
   return (
-    <div className="grid grid-cols-2 gap-20">
+    <div className="grid md:grid-cols-2 gap-20">
       <div>
         <div className="flex gap-2 items-end">
           <div>

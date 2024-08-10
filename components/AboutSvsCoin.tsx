@@ -11,7 +11,7 @@ const AboutSvsCoin = () => {
             <img
               src="/assets/imgs/about-img.png"
               alt=""
-              className="absolute right-0 top-0 md:scale-125 md:flex hidden"
+              className="md:absolute right-0 top-0 md:scale-125 md:flex hidden"
             />
 
             <div className="translate-y-1/2 -translate-x-1/2 h-full flex flex-col items-end">

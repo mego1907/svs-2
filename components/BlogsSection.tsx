@@ -2,11 +2,11 @@ import React from "react";
 
 const BlogsSection = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-header-gradient">
+    <div className="w-full min-h-screen relative flex items-center justify-center bg-header-gradient">
       <div className="md:px-32">
-        <div className="flex ">
+        <div className="flex md:flex-row flex-col ">
           <div className="flex items-center justify-center">
-            <div className="w-96 relative">
+            <div className="md:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
@@ -21,7 +21,7 @@ const BlogsSection = () => {
               </span>
             </div>
             <div className="w-full bg-[#FFBD59] p-5 rounded-r-2xl ">
-              <div className="grid grid-cols-4 gap-10 items-center justify-center h-full">
+              <div className="grid md:grid-cols-4 gap-10 items-center justify-center h-full">
                 <div className=" border-red-500 border-4 rounded-2xl w-60 h-60 p-1.5 ">
                   <img
                     src="/assets/imgs/Group 34 (1).png"

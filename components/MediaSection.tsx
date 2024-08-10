@@ -2,9 +2,9 @@ import React from "react";
 
 const MediaSection = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-header-gradient">
+    <div className="w-full min-h-screen flex items-center justify-center bg-header-gradient">
       <div className="md:px-32">
-        <div className="flex ">
+        <div className="flex md:flex-row flex-col">
           <div className="flex items-center relative">
             <div className="px-6 bg-black rounded-full absolute -left-6 top-20 text-7xl font-bold">
               <span>
@@ -12,12 +12,12 @@ const MediaSection = () => {
               </span>
             </div>
             <div className="w-full bg-[#FFBD59] p-5 rounded-l-2xl ">
-              <div className="grid grid-cols-[2fr_1fr] w-full bg-white p-2">
+              <div className="grid md:grid-cols-[2fr_1fr] w-full bg-white p-2">
                 <div className="w-full">
                   <img
                     src="/assets/imgs/Group 34 (1).png"
                     alt=""
-                    className="w-full h-80 object-cover"
+                    className="w-full md:h-80 object-cover"
                   />
                 </div>
                 <div className="flex flex-col ml-6">
@@ -39,16 +39,16 @@ const MediaSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center w-96 rounded-md justify-center p-2 bg-[#FFBD59]">
+          <div className="flex items-center md:w-96 rounded-md justify-center p-2 bg-[#FFBD59]">
             <div className="flex flex-col gap-3">
-              <div className="w-96 relative h-52">
+              <div className="md:w-96 relative h-52">
                 <img
                   src="/assets/imgs/Group 34 (1).png"
                   alt=""
                   className="w-full h-full object-cover rounded-3xl"
                 />
               </div>
-              <div className="w-96 relative h-52 rounded-2xl">
+              <div className="md:w-96 relative h-52 rounded-2xl">
                 <img
                   src="/assets/imgs/Group 34 (1).png"
                   alt=""
