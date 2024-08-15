@@ -54,8 +54,8 @@ const TokenSVSSection = () => {
   }, []);
 
   return (
-    <div className="bg-header-gradient flex justify-center items-center">
-      <div className="md:px-32">
+    <div className="bg-header-gradient flex justify-center items-center min-h-screen py-10">
+      <div className="md:px-32 px-5">
         <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-center items-center">
             <div className="flex flex-col items-center justify-center">
@@ -65,17 +65,18 @@ const TokenSVSSection = () => {
                     SVS <span className="text-white">PROJECT</span>
                   </span>
                 }
-                titleClassName="md:text-[6rem]"
+                titleClassName="md:text-[6rem] text-3xl"
+                theClassName="md:translate-x-5 translate-x-2"
               />
               <button
                 type="button"
-                className="md:text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4"
+                className="md:text-5xl font-bold flex items-center justify-center gap-5 bg-[#FFBD59] p-2 rounded-md px-4 md:mt-0 mt-2"
               >
                 <IoDocumentTextOutline />
                 <span>SVS TOKEN</span>
               </button>
             </div>
-            <p className="ml-12 mt-8">
+            <p className="md:ml-12 mt-8">
               SVS Coin is a token developed for facilitating the payment of the
               fees, expenses and Return of investment ( ROI ) of SVS Network's
               Projects worldwide . it will be created with a strict maximum

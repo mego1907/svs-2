@@ -92,8 +92,8 @@ const BuyAndSellSvsSection = () => {
 
   return (
     <div className="md:py-16 py-10 bg-header-gradient w-full">
-      <div className="md:p-32">
-        <div className="grid md:grid-cols-2 w-full md:gap-20">
+      <div className="md:p-32 px-5">
+        <div className="grid md:grid-cols-2 w-full md:gap-20 gap-10">
           <div className="flex justify-end">
             <img
               src="/assets/imgs/BuyAndSell.png"
@@ -103,19 +103,19 @@ const BuyAndSellSvsSection = () => {
           </div>
           <div>
             <div className="flex flex-col">
-              <p className="md:text-[9rem] font-bold -tracking-wider leading-[8rem]">
+              <p className="md:text-[9rem] text-5xl font-bold -tracking-wider md:leading-[8rem]">
                 How to
               </p>
-              <p className="md:text-[5.5rem] font-bold -tracking-wider leading-[4rem]">
+              <p className="md:text-[5.5rem] text-5xl leading-8 font-bold -tracking-wider md:leading-[4rem]">
                 <span className="text-[#3AAA35]">BUY</span> &
                 <span className="text-[#FFBD59]">SELL</span>
               </p>
-              <p className="md:text-[5.5rem] font-bold -tracking-wider leading-[5rem]">
+              <p className="md:text-[5.5rem] text-5xl font-bold -tracking-wider md:leading-[5rem]">
                 <span className="text-[#FFBD59]">SVS</span>
                 COIN
               </p>
             </div>
-            <div className="flex items-center justify-start gap-8 mt-8">
+            <div className="flex items-center md:justify-start jus gap-2 md:gap-8 mt-8">
               <div>
                 <img src="/assets/imgs/Group 14.png" alt="" />
               </div>

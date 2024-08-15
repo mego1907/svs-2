@@ -48,17 +48,21 @@ const PartnersAndSuporters = () => {
 
   return (
     <div className="min-h-screen w-full flex items-center justify-center bg-header-gradient">
-      <div className="lg:px-32 md:px-20 px-10">
-        <div className="flex items-center justify-center flex-col">
-          <TitleWithThe title="PARTNERS &" theClassName="text-2xl" />
+      <div className="lg:px-32 md:px-20 px-5">
+        <div className="flex items-center justify-center  w-full md:text-left flex-col">
+          <TitleWithThe
+            title="PARTNERS &"
+            theClassName="md:text-5xl text-2xl md:translate-x-5 translate-x-1"
+            titleClassName="md:text-5xl text-3xl"
+          />
           <p className="text-white md:text-[6rem] font-bold md:leading-[4rem]">
             COLLABORATIONS
           </p>
         </div>
 
-        <div className="grid md:grid-cols-5 gap-24 md:mt-44">
+        <div className="grid md:grid-cols-5 md:gap-24 gap-5 md:mt-44 mt-10">
           {images.map((image, index) => (
-            <div key={index} className="flex items-center justify-start ">
+            <div key={index} className="flex items-center md:justify-start justify-center ">
               <img src={image} alt="" />
             </div>
           ))}

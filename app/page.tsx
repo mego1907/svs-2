@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between bg-mainBg text-white overflow-hidden">
+    <main className="flex min-h-screen flex-col w-full items-center justify-between bg-mainBg text-white">
       {/* <SEO
         url="https://svs-v1.vercel.app"
         title={"SVS"}
@@ -68,7 +68,7 @@ export default function Home() {
       <MediaSection />
       <SingleNewSection />
       <SubscribeSection />
-
+        
       <FooterSection />
     </main>
   );

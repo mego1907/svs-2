@@ -124,35 +124,43 @@ const Header: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row md:gap-8 gap-4 md:mt-16 md:mb-24 w-full px-10">
+          <div className="flex md:gap-8 gap-4 md:mt-16 md:mb-24 w-full md:px-10 px-4">
             <a
               href="/whitepaper"
               target="_blank"
               className="flex flex-col gap-2 border md:p-3 md:w-auto w-full rounded-lg md:px-6 items-center justify-center p-1 bg-[#ffbd58]"
             >
-              <span className="md:text-lg text-sm font-bold">MARKET PRICE</span>
-              <div className="flex justify-between w-full">
-                <img src="/assets/imgs/coin.png" alt="" />
-                <span className="md:text-3xl text-lg font-bold">1.81</span>
+              <span className="md:text-lg text-xs font-bold">MARKET PRICE</span>
+              <div className="flex md:justify-between justify-center gap-2 w-full">
+                {/* <div className=""> */}
+                <img src="/assets/imgs/coin.png" alt="" className="" />
+                {/* </div> */}
+                <span className="md:text-3xl text-lg font-bold w-full text-center">
+                  1.81
+                </span>
               </div>
             </a>
 
             <a
               href="/whitepaper"
               target="_blank"
-              className="flex flex-col gap-2 border md:p-3 rounded-lg md:px-6 items-center justify-center p-2 bg-[#ffbd58]"
+              className="flex flex-col gap-2 border md:p-3 rounded-lg md:w-auto w-full md:px-6 items-center justify-center p-2 bg-[#ffbd58]"
             >
-              <span className="md:text-lg text-sm font-bold">MARKET PRICE</span>
-              <div className="flex justify-between w-full">
+              <span className="md:text-lg text-xs font-bold">
+                MARKET VOLIME
+              </span>
+              <div className="flex justify-between items-center w-full md:w-auto">
                 <img src="/assets/imgs/coin.png" alt="" />
-                <span className="md:text-3xl text-lg font-bold">119,530</span>
+                <span className="md:text-3xl text-base font-bold w-full text-center">
+                  119,530
+                </span>
               </div>
             </a>
           </div>
         </div>
 
         <div
-          className="md:flex flex-wrap items-center justify-center mt-20 translate-y-96 opacity-0 relative header-image-container"
+          className="md:flex flex-wrap items-center justify-center opacity-0 relative header-image-container"
           ref={logoContainer}
         >
           <ThreeDCoin />

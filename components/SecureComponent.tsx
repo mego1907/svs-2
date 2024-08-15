@@ -65,31 +65,33 @@ const SecureComponent = () => {
 
   return (
     <div className="md:py-10 w-full md:px-0 px-3 bg-header-gradient">
-      <div className="md:px-32">
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex items-center md:text-left text-center justify-center">
-            <div>
-              <p className="md:text-5xl font-bold md:leading-[3rem]">
+      <div className="md:px-32 w-full">
+        <div className="grid md:grid-cols-2 gap-10 w-full">
+          <div className="flex items-center w-full md:text-left text-left justify-center">
+            <div className="flex flex-col w-full">
+              <p className="md:text-5xl text-lg font-bold md:leading-[3rem]">
                 POWERED BY
               </p>
-              <p className="md:text-5xl font-bold md:leading-[3rem]">
+              <p className="md:text-5xl text-lg font-bold md:leading-[3rem]">
                 CUTTING-EDGE
               </p>
-              <p className="md:text-[12rem] font-bold text-[#ffbd58] md:leading-[10rem]">
+              <p className="md:text-[12rem] text-xl font-bold text-[#ffbd58] md:leading-[10rem]">
                 BLOCK
               </p>
-              <p className="md:text-[12rem] font-bold md:leading-[10rem]">
+              <p className="md:text-[12rem] text-xl font-bold md:leading-[10rem]">
                 CHAIN
               </p>
-              <p className="md:text-xl ml-3 text-sm md:mt-auto mt-5">
-                The technology that ensures the highest level of security and
-                transparency in transactions. By decentralizing data storage and
-                processing
-              </p>
+              <div className="max-w-full">
+                <p className="md:text-xl md:ml-3 text-sm md:mt-auto mt-5">
+                  The technology that ensures the highest level of security and
+                  transparency in transactions. By decentralizing data storage
+                  and processing
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-col gap-10 items-center justify-center">
+          <div className="flex flex-col gap-10 items-center justify-center w-full">
             <div className="flex justify-end md:text-left text-center relative">
               <div className="hidden items-center absolute md:left-28 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/safe.png" alt="" className="" />
@@ -97,11 +99,11 @@ const SecureComponent = () => {
 
               <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 md:translate-x-1 md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2">
-                  <span className="text-6xl w-8 font-bold tracking-wide uppercase">
+                  <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     SAFE
                   </span>
                 </div>
-                <p className="text-xl text-black">
+                <p className="md:text-xl text-sm text-black">
                   Our platform utilizes state-of-the-art security protocols to
                   safeguard your funds and personal data. We understand the
                   importance of trust and take every measure to ensure your
@@ -117,11 +119,11 @@ const SecureComponent = () => {
 
               <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 md:absolute -left-24 top-1/2 -translate-y-1/2">
-                  <span className="text-6xl w-8 font-bold tracking-wide uppercase">
+                  <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     PROTECTED
                   </span>
                 </div>
-                <p className="text-xl text-black">
+                <p className="md:text-xl text-sm text-black">
                   Your funds and assets held on our platform are insured against
                   a range of risks, including theft, cyberattacks, and
                   operational errors. We employ multi-factor authentication
@@ -142,11 +144,11 @@ const SecureComponent = () => {
 
               <div className="flex md:flex-row flex-col  bg-[#FFBD59] p-8 md:w-9/12 rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 translate-x-1 md:absolute left-0 top-1/2 -translate-y-1/2">
-                  <span className="text-6xl w-8 font-bold tracking-wide uppercase">
+                  <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     Easy
                   </span>
                 </div>
-                <p className="text-xl text-black">
+                <p className="md:text-xl text-sm text-black">
                   Rest assured that your withdrawals are protected by robust
                   security measures. Users can quickly access their funds when
                   needed, providing a hassle-free experience.

@@ -38,22 +38,23 @@ const GetStartedSection = () => {
               <img
                 src="/assets/imgs/Rigister.png"
                 alt=""
-                className="md:w-40 absolute md:-top-24 -top-10 left-1/2 -translate-x-1/2"
+                className="md:w-40 w-20 absolute md:-top-24 top-6 left-1/2 -translate-x-1/2"
               />
 
-              <div className="grid items-center justify-center text-center p-3 bg-[#54482F] rounded-md pt-20 h-72">
-                <h3 className="md:text-3xl font-bold text-white">Register</h3>
+              <div className="md:grid flex flex-col items-center justify-center text-center p-3 bg-[#54482F] rounded-md md:pt-20 md:h-72 pt-28">
+                <h3 className="text-3xl font-bold text-white">Register</h3>
                 <p className="md:text-base mt-5 font-light">
                   Create an account via our intuitive, user-friendly desktop &
                   App platforms.
                 </p>
               </div>
             </div>
-            <div className="grid items-center justify-center p-4 relative">
+            <div className="flex flex-col items-center justify-center p-4 relative">
               <img
                 src="/assets/imgs/Fund.png"
                 alt=""
-                className="md:w-48 w-32 absolute md:-top-16 -top-6 left-1/2 -translate-x-1/2"
+                // className="md:w-48 w-32 absolute md:-top-16 -top-6 left-1/2 -translate-x-1/2"
+                className="md:w-48 w-24 absolute md:-top-16 top-8 left-1/2 -translate-x-1/2"
               />
 
               <div className="flex flex-col items-center justify-center text-center p-3 bg-[#54482F] rounded-md pt-20 h-72">
@@ -65,11 +66,13 @@ const GetStartedSection = () => {
                 </p>
               </div>
             </div>
-            <div className="grid items-center justify-center p-4 relative">
+            <div className="flex flex-col items-center justify-center p-4 relative">
               <img
                 src="/assets/imgs/Trade.png"
                 alt=""
-                className="md:w-40 absolute -top-24 left-1/2 -translate-x-1/2"
+                // className="md:w-40 absolute -top-24 left-1/2 -translate-x-1/2"
+                className="md:w-40 w-20 absolute md:-top-24 top-8 left-1/2 -translate-x-1/2"
+
               />
 
               <div className="flex flex-col items-center justify-center text-center p-3 bg-[#54482F] rounded-md pt-20 h-72">
@@ -81,7 +84,7 @@ const GetStartedSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center relative z-10">
+          <div className="md:flex hidden items-center md:px-0  px-10 justify-center relative z-10">
             <img
               src="/assets/imgs/get-started.png"
               alt=""

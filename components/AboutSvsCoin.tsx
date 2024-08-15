@@ -5,8 +5,8 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 const AboutSvsCoin = () => {
   return (
     <div className="md:py-20 bg-header-gradient w-full min-h-screen">
-      <div className="md:px-32">
-        <div className="grid md:grid-cols-2 gap-20">
+      <div className="md:px-32 px-5">
+        <div className="grid md:grid-cols-2 md:gap-20 gap-10">
           <div className="w-full h-full relative">
             <img
               src="/assets/imgs/about-img.png"
@@ -14,11 +14,11 @@ const AboutSvsCoin = () => {
               className="md:absolute right-0 top-0 md:scale-125 md:flex hidden"
             />
 
-            <div className="translate-y-1/2 -translate-x-1/2 h-full flex flex-col items-end">
+            <div className="md:translate-y-1/2 md:-translate-x-1/2 h-full flex justify-center items-center md:gap-0 gap-4 flex-col md:items-end">
               <TitleWithThe title="ABOUT" theClassName="" titleClassName="" />
               <button
                 type="button"
-                className="md:text-3xl flex items-center font-bold p-2 rounded-lg justify-center bg-[#FFBD59]"
+                className="md:text-3xl flex items-center font-bold md:p-2 p-1 rounded-lg justify-center bg-[#FFBD59]"
               >
                 <IoDocumentTextOutline fontSize={30} />
                 <span>WHITE PAPER</span>

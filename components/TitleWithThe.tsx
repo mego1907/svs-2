@@ -12,22 +12,15 @@ const TitleWithThe = ({
   theClassName,
   titleClassName,
 }: TitleWithTheProps) => {
+  const defaultTheClassName =
+    "-:md:text-5xl -:text-2xl -:font-bold -:text-white -:translate-x-5 -:-rotate-90";
+  const defaultTitleClassName =
+    "-:md:text-8xl -:text-5xl -:font-bold -:text-[#FFBD59]";
+
   return (
     <div className="relative flex">
-      <p
-        className={classNames(
-          `md:text-5xl text-2xl font-bold text-white translate-x-5 -rotate-90 ${theClassName}`
-        )}
-      >
-        the
-      </p>
-      <h5
-        className={classNames(
-          `md:text-8xl text-5xl font-bold text-[#FFBD59] ${titleClassName}`
-        )}
-      >
-        {title}
-      </h5>
+      <p className={`${defaultTheClassName} ${theClassName}`}>the</p>
+      <h5 className={`${defaultTitleClassName} ${titleClassName}`}>{title}</h5>
     </div>
   );
 };
