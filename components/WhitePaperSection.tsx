@@ -14,7 +14,7 @@ const WhitePaperSection = () => {
                 SVS <span className="text-white">PROJECT</span>
               </span>
             }
-            titleClassName="md:text-[9rem] text-3xl"
+            titleClassName="md:text-8xl text-3xl"
             theClassName="md:translate-x-5 translate-x-2"
           />
 

@@ -65,7 +65,7 @@ const TokenSVSSection = () => {
                     SVS <span className="text-white">PROJECT</span>
                   </span>
                 }
-                titleClassName="md:text-[6rem] text-3xl"
+                titleClassName="md:text-8xl text-3xl"
                 theClassName="md:translate-x-5 translate-x-2"
               />
               <button

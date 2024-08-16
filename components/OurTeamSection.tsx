@@ -17,8 +17,8 @@ const OurTeamSection = () => {
           <div className="flex md:justify-end justify-center">
             <TitleWithThe
               title="TEAM"
-              titleClassName="text-4xl text-[#FFBD59]"
-              theClassName="translate-x-2"
+              titleClassName="text-4xl md:text-8xl text-[#FFBD59]"
+              theClassName="translate-x-2 md:translate-x-5"
             />
           </div>
           <div className="flex md:flex-row flex-col items-center relative md:mt-0 mt-5">
@@ -46,8 +46,8 @@ const OurTeamSection = () => {
 
               <div className="flex md:flex-row gap-5 flex-col items-center md:justify-between justify-start mt-4 md:ml-4">
                 <div className="flex flex-col">
-                  <h3 className="md:text-xl font-bold">NADER SAID</h3>
-                  <p className="text-lg font-bold">
+                  <h3 className="md:text-5xl font-bold">NADER SAID</h3>
+                  <p className="text-lg md:text-2xl font-bold">
                     CEO | Chief Executive Officer
                   </p>
                 </div>
@@ -75,7 +75,7 @@ const OurTeamSection = () => {
               alt=""
             />
             <div className="min-w-full flex flex-col justify-between bg-[#FFBD59] md:pl-48 md:rounded-l-3xl rounded-2xl p-4 h-[277px] w-full">
-              <p className="text-sm">
+              <p className="text-sm md:text-base">
                 Seasoned Chief Technology Officer with over 15 years of
                 experience in driving technology innovation and excellence. His
                 extensive expertise, strategic vision and leadership skills have
@@ -85,8 +85,8 @@ const OurTeamSection = () => {
 
               <div className="flex md:flex-row flex-col items-center justify-between">
                 <div className="flex flex-col">
-                  <h3 className="md:text-xl font-bold">YAZAN ABASSI</h3>
-                  <p className="md:text-lg  font-bold">
+                  <h3 className="md:text-3xl font-bold">YAZAN ABASSI</h3>
+                  <p className="md:text-xl  font-bold">
                     CTO | Chief Technology Officer
                   </p>
                 </div>
@@ -111,7 +111,7 @@ const OurTeamSection = () => {
               alt=""
             />
             <div className="flex justify-between flex-col bg-[#FFBD59] md:pl-48 md:rounded-l-3xl rounded-2xl p-4 md:h-[277px] w-full">
-              <p className="text-sm">
+              <p className="text-sm md:text-base">
                 Seasoned Chief Technology Officer with over 15 years of
                 experience in driving technology innovation and excellence. His
                 extensive expertise, strategic vision and leadership skills have
@@ -121,8 +121,8 @@ const OurTeamSection = () => {
 
               <div className="flex md:flex-row flex-col items-center justify-between mt-4 md:ml-4">
                 <div className="flex flex-col">
-                  <h3 className="md:text-xl font-bold">YAZAN ABASSI</h3>
-                  <p className="md:text-lg font-bold">
+                  <h3 className="md:text-3xl font-bold">YAZAN ABASSI</h3>
+                  <p className="md:text-xl font-bold">
                     CTO | Chief Technology Officer
                   </p>
                 </div>

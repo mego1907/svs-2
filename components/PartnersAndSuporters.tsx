@@ -53,7 +53,7 @@ const PartnersAndSuporters = () => {
           <TitleWithThe
             title="PARTNERS &"
             theClassName="md:text-5xl text-2xl md:translate-x-5 translate-x-1"
-            titleClassName="md:text-5xl text-3xl"
+            titleClassName="md:text-8xl text-3xl"
           />
           <p className="text-white md:text-[6rem] font-bold md:leading-[4rem]">
             COLLABORATIONS
@@ -62,7 +62,10 @@ const PartnersAndSuporters = () => {
 
         <div className="grid md:grid-cols-5 md:gap-24 gap-5 md:mt-44 mt-10">
           {images.map((image, index) => (
-            <div key={index} className="flex items-center md:justify-start justify-center ">
+            <div
+              key={index}
+              className="flex items-center md:justify-start justify-center "
+            >
               <img src={image} alt="" />
             </div>
           ))}

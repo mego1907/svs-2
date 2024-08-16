@@ -25,7 +25,7 @@ const ValuesSection = () => {
             <TitleWithThe
               title="VALUES"
               theClassName="md:translate-x-5 translate-x-2"
-              titleClassName="text-2xl bg-[#FFBD59] text-white rounded-md"
+              titleClassName="text-2xl md:text-8xl bg-[#FFBD59] text-white rounded-md"
             />
           </div>
           <span className="md:text-xl text-base">
@@ -66,7 +66,7 @@ const VisionSection = () => {
             <TitleWithThe
               title="VALUES"
               theClassName="md:translate-x-5 translate-x-2"
-              titleClassName="text-2xl bg-[#FFBD59] text-black rounded-md"
+              titleClassName="text-2xl md:text-8xl bg-[#FFBD59] text-black rounded-md"
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ const MissionSection = () => {
             <TitleWithThe
               title="VALUES"
               theClassName="md:translate-x-5 translate-x-2"
-              titleClassName="text-2xl bg-white text-[#FFBD59] rounded-md"
+              titleClassName="text-2xl md:text-8xl bg-white text-[#FFBD59] rounded-md"
             />
           </div>
           <span className="md:text-xl text-base">
