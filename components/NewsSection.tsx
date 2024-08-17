@@ -50,20 +50,20 @@ const NewsSection = () => {
 
   return (
     <div className="py-20 bg-header-gradient w-full">
-      <div className="md:px-32">
+      <div className="lg:px-32">
         <div className="flex items-center justify-center">
           <TitleWithThe title="News" />
         </div>
 
-        <div className="grid items-center justify-center md:grid-cols-3 gap-20 mt-20">
+        <div className="grid items-center justify-center lg:grid-cols-3 gap-20 mt-20">
           <div className="flex items-center justify-center">
-            <div className="md:w-96 relative">
+            <div className="lg:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 lg:text-7xl text-3xl font-bold">
                 <span>
                   B<span className="text-[#FFBD59]">LOGS</span>
                 </span>
@@ -72,13 +72,13 @@ const NewsSection = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="md:w-96 relative">
+            <div className="lg:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 lg:text-7xl text-3xl font-bold">
                 <span>
                   M<span className="text-[#FFBD59]">EDIA</span>
                 </span>
@@ -87,13 +87,13 @@ const NewsSection = () => {
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="md:w-96 relative">
+            <div className="lg:w-96 relative">
               <img
                 src="/assets/imgs/Group 34 (1).png"
                 alt=""
                 className="w-full "
               />
-              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 md:text-7xl text-3xl font-bold">
+              <div className="px-6 bg-black rounded-full absolute -right-6 -bottom-3 lg:text-7xl text-3xl font-bold">
                 <span>
                   N<span className="text-[#FFBD59]">EWS</span>
                 </span>
@@ -119,7 +119,7 @@ export const NewCard = ({
 }) => {
   return (
     <div className="flex flex-col items-center justify-center gap-4" id="news">
-      <div className="relative md:w-[353px] w-72 h-[235px] z-40">
+      <div className="relative lg:w-[353px] w-72 h-[235px] z-40">
         {/* <Image
           src={image ? image : imageurl}
           alt={title}
@@ -133,7 +133,7 @@ export const NewCard = ({
         />
       </div>
 
-      <h3 className="md:text-3xl text-xl font-semibold text-center">{title}</h3>
+      <h3 className="lg:text-3xl text-xl font-semibold text-center">{title}</h3>
 
       <a
         href={`/news/${id}`}

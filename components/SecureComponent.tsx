@@ -64,25 +64,25 @@ const SecureComponent = () => {
   }, []);
 
   return (
-    <div className="md:py-10 w-full md:px-0 px-3 bg-header-gradient">
-      <div className="md:px-32 w-full">
-        <div className="grid md:grid-cols-2 gap-10 w-full">
-          <div className="flex items-center w-full md:text-left text-left justify-center">
+    <div className="lg:py-10 w-full lg:px-0 px-3 bg-header-gradient">
+      <div className="lg:px-32 md:px-10 w-full">
+        <div className="grid lg:grid-cols-2 gap-10 w-full">
+          <div className="flex items-center w-full lg:text-left text-left justify-center">
             <div className="flex flex-col w-full">
-              <p className="md:text-5xl text-lg font-bold md:leading-[3rem]">
+              <p className="md:text-5xl text-lg font-bold lg:leading-[3rem]">
                 POWERED BY
               </p>
-              <p className="md:text-5xl text-lg font-bold md:leading-[3rem]">
+              <p className="md:text-5xl text-lg font-bold lg:leading-[3rem]">
                 CUTTING-EDGE
               </p>
-              <p className="md:text-[12rem] text-xl font-bold text-[#ffbd58] md:leading-[10rem]">
+              <p className="lg:text-[12rem] md:text-8xl text-xl font-bold text-[#ffbd58] lg:leading-[10rem]">
                 BLOCK
               </p>
-              <p className="md:text-[12rem] text-xl font-bold md:leading-[10rem]">
+              <p className="lg:text-[12rem] md:text-8xl text-xl font-bold lg:leading-[10rem]">
                 CHAIN
               </p>
               <div className="max-w-full">
-                <p className="md:text-xl md:ml-3 text-sm md:mt-auto mt-5">
+                <p className="lg:text-xl md:text-base lg:ml-3 text-sm lg:mt-auto mt-5">
                   The technology that ensures the highest level of security and
                   transparency in transactions. By decentralizing data storage
                   and processing
@@ -93,11 +93,11 @@ const SecureComponent = () => {
 
           <div className="flex flex-col gap-10 items-center justify-center w-full">
             <div className="flex justify-end md:text-left text-center relative">
-              <div className="hidden items-center absolute md:left-36 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
+              <div className="hidden items-center absolute lg:left-36 md:left-12 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/safe.png" alt="" className="" />
               </div>
 
-              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
+              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 lg:w-9/12 md:w-10/12 w-full rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 md:translate-x-1 md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2">
                   <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     SAFE
@@ -113,11 +113,11 @@ const SecureComponent = () => {
             </div>
 
             <div className="flex justify-end md:text-left text-center relative">
-              <div className="md:flex hidden items-center absolute md:left-36 left-10 top-1/2 -translate-y-1/2 z-10">
+              <div className="hidden items-center absolute lg:left-36 md:left-12 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/protected.png" alt="" className="" />
               </div>
 
-              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 md:w-9/12 w-full rounded-md md:pl-32 relative">
+              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 lg:w-9/12 md:w-10/12 w-full rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 md:absolute -left-24 top-1/2 -translate-y-1/2">
                   <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     PROTECTED
@@ -138,11 +138,11 @@ const SecureComponent = () => {
             </div>
 
             <div className="flex justify-end md:text-left text-center relative">
-              <div className="md:flex hidden items-center absolute md:left-36 left-10 top-1/2 -translate-y-1/2 z-10">
+              <div className="hidden items-center absolute lg:left-36 md:left-12 md:flex left-1/2 md:top-1/2 -translate-y-1/2 z-10">
                 <img src="/assets/imgs/easy.png" alt="" className="" />
               </div>
 
-              <div className="flex md:flex-row flex-col  bg-[#FFBD59] p-8 md:w-9/12 rounded-md md:pl-32 relative">
+              <div className="flex md:flex-row flex-col bg-[#FFBD59] p-6 lg:w-9/12 md:w-10/12 w-full rounded-md md:pl-32 relative">
                 <div className="md:-rotate-90 translate-x-1 md:absolute left-0 top-1/2 -translate-y-1/2">
                   <span className="md:text-6xl text-xl w-8 font-bold tracking-wide uppercase">
                     Easy

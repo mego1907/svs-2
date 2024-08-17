@@ -106,17 +106,17 @@ const WhyChooseUs = () => {
 
 const WhyExperienceSection = () => {
   return (
-    <div className="py-10 w-full md:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
-      <div className="md:px-32 px-5">
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex flex-col relative items-center md:gap-8 md:items-end md:text-right text-center">
+    <div className="py-10 w-full lg:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
+      <div className="lg:px-32 px-5">
+        <div className="grid lg:grid-cols-2 gap-10">
+          <div className="flex flex-col relative items-center lg:gap-8 lg:items-end lg:text-right text-center">
             <TitleWithThe
               title="Why"
               theClassName=""
-              titleClassName="md:text-8xl text-6xl"
+              titleClassName="lg:text-8xl text-6xl"
             />
-            <h5 className="md:text-5xl font-bold tracking-wider">EXPERIENCE</h5>
-            <p className="md:text-2xl md:max-w-[33ch] mt-5 text-left">
+            <h5 className="lg:text-5xl font-bold tracking-wider">EXPERIENCE</h5>
+            <p className="lg:text-2xl lg:max-w-[33ch] mt-5 text-left">
               A dynamic and evolving experience that blends financial innovation
               with technology advancements. We have team of experienced
               blockchain developers, cryptographers and software engineers who
@@ -125,7 +125,7 @@ const WhyExperienceSection = () => {
             </p>
             <button
               type="button"
-              className="md:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 md:mt-0"
+              className="lg:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 lg:mt-0"
             >
               WATCH VIDEO
             </button>
@@ -141,17 +141,17 @@ const WhyExperienceSection = () => {
 
 const WhyApproachSection = () => {
   return (
-    <div className="py-10 relative w-full md:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
-      <div className="md:px-32 px-5">
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex relative flex-col md:gap-8 items-center md:items-end text-right">
+    <div className="py-10 relative w-full lg:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
+      <div className="lg:px-32 px-5">
+        <div className="grid lg:grid-cols-2 gap-10">
+          <div className="flex relative flex-col lg:gap-8 items-center lg:items-end text-right">
             <TitleWithThe
               title="Why"
               theClassName=""
-              titleClassName="md:text-8xl text-6xl"
+              titleClassName="lg:text-8xl text-6xl"
             />
-            <h5 className="md:text-5xl font-bold tracking-wider">APPROACH</h5>
-            <p className="md:text-2xl md:max-w-[35ch] md:mt-0 mt-5 text-left">
+            <h5 className="lg:text-5xl font-bold tracking-wider">APPROACH</h5>
+            <p className="lg:text-2xl lg:max-w-[35ch] lg:mt-0 mt-5 text-left">
               We prioritize our clients' needs above all else, offering
               personalized support and guidance every step of the way. Focusing
               on creating user-friendly interfaces and seamless user experience.
@@ -160,7 +160,7 @@ const WhyApproachSection = () => {
             </p>
             <button
               type="button"
-              className="md:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 md:mt-0"
+              className="lg:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 lg:mt-0"
             >
               WATCH VIDEO
             </button>
@@ -176,19 +176,19 @@ const WhyApproachSection = () => {
 
 const WhyInnovationSection = () => {
   return (
-    <div className="py-10 w-full md:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
-      <div className="md:px-32 px-5">
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex flex-col md:gap-8 items-center md:items-end text-right">
+    <div className="py-10 w-full lg:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
+      <div className="lg:px-32 px-5">
+        <div className="grid lg:grid-cols-2 gap-10">
+          <div className="flex flex-col lg:gap-8 items-center lg:items-end text-right">
             <TitleWithThe
               title="Why"
               theClassName=""
-              titleClassName="md:text-8xl text-6xl"
+              titleClassName="lg:text-8xl text-6xl"
             />
-            <h5 className="md:text-5xl font-bold tracking-wider ">
+            <h5 className="lg:text-5xl font-bold tracking-wider ">
               INNOVATION
             </h5>
-            <p className="md:text-2xl md:max-w-[33ch] md:mt-0 mt-5 text-left">
+            <p className="lg:text-2xl lg:max-w-[33ch] lg:mt-0 mt-5 text-left">
               Beyond the present, we envision the future of finance. Our
               innovative solutions pave the way for tomorrow's digital economy.
               Leveraging technology, such as scalable consensus algorithms,
@@ -198,7 +198,7 @@ const WhyInnovationSection = () => {
             </p>
             <button
               type="button"
-              className="md:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl md:mt-0 mt-2"
+              className="lg:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl lg:mt-0 mt-2"
             >
               WATCH VIDEO
             </button>
@@ -214,17 +214,17 @@ const WhyInnovationSection = () => {
 
 const WhyServiceSection = () => {
   return (
-    <div className="py-10 w-full relative md:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
-      <div className="md:px-32 px-5">
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="flex flex-col items-center md:gap-8 md:items-end md:text-right text-center">
+    <div className="py-10 w-full relative lg:min-h-[80vh] min-h-screen flex items-center justify-center bg-header-gradient">
+      <div className="lg:px-32 px-5">
+        <div className="grid lg:grid-cols-2 gap-10">
+          <div className="flex flex-col items-center lg:gap-8 lg:items-end lg:text-right text-center">
             <TitleWithThe
               title="Why"
               theClassName=""
-              titleClassName="md:text-8xl text-6xl"
+              titleClassName="lg:text-8xl text-6xl"
             />
-            <h5 className="md:text-5xl font-bold tracking-wider">SERVICE</h5>
-            <p className="md:text-2xl md:max-w-[33ch] mt-5">
+            <h5 className="lg:text-5xl font-bold tracking-wider">SERVICE</h5>
+            <p className="lg:text-2xl lg:max-w-[33ch] mt-5">
               Whether you're a seasoned investor or new to cryptocurrencies, we
               offer a comprehensive range of services tailored to meet your
               needs. Building partnerships with other blockchain projects,
@@ -233,7 +233,7 @@ const WhyServiceSection = () => {
             </p>
             <button
               type="button"
-              className="md:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 md:mt-0"
+              className="lg:text-4xl bg-[#FFBD59] font-bold p-1 rounded-xl mt-2 lg:mt-0"
             >
               WATCH VIDEO
             </button>

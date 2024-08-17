@@ -12,23 +12,23 @@ import { TfiLinkedin } from "react-icons/tfi";
 const OurTeamSection = () => {
   return (
     <div className="w-full bg-header-gradient py-32">
-      <div className="md:px-32 flex flex-col items-center px-5">
-        <div className="flex justify-center flex-col md:w-10/12 w-full">
-          <div className="flex md:justify-end justify-center">
+      <div className="lg:px-32 flex flex-col items-center px-5">
+        <div className="flex justify-center flex-col lg:w-10/12 w-full">
+          <div className="flex lg:justify-end justify-center">
             <TitleWithThe
               title="TEAM"
-              titleClassName="text-4xl md:text-8xl text-[#FFBD59]"
-              theClassName="translate-x-2 md:translate-x-5"
+              titleClassName="text-4xl lg:text-8xl text-[#FFBD59]"
+              theClassName="translate-x-2 lg:translate-x-5"
             />
           </div>
-          <div className="flex md:flex-row flex-col items-center relative md:mt-0 mt-5">
+          <div className="flex lg:flex-row flex-col items-center relative lg:mt-0 mt-5">
             <img
               src="/assets/imgs/88888.png"
-              className="md:translate-x-2/3 md:w-[277px] md:h-[277px] w-40 md:absolute  -left-72"
+              className="lg:translate-x-2/3 lg:w-[277px] lg:h-[277px] w-40 lg:absolute  -left-72"
               alt=""
             />
-            <div className="flex flex-col bg-[#FFBD59] md:pl-48 md:rounded-l-3xl rounded-2xl p-4 md:h-[277px]">
-              <p className="md:text-base text-sm">
+            <div className="flex flex-col bg-[#FFBD59] lg:pl-48 lg:rounded-l-3xl rounded-2xl p-4 lg:h-[277px]">
+              <p className="lg:text-base text-sm">
                 With over 20 years of experience in the market, Nader is a
                 seasoned business owner known for his strategic vision,
                 innovative leadership, and profound industry expertise.
@@ -44,10 +44,10 @@ const OurTeamSection = () => {
                 developing the next generation of business talent.
               </p>
 
-              <div className="flex md:flex-row gap-5 flex-col items-center md:justify-between justify-start mt-4 md:ml-4">
+              <div className="flex lg:flex-row gap-5 flex-col items-center lg:justify-between justify-start mt-4 lg:ml-4">
                 <div className="flex flex-col">
-                  <h3 className="md:text-5xl font-bold">NADER SAID</h3>
-                  <p className="text-lg md:text-2xl font-bold">
+                  <h3 className="lg:text-5xl font-bold">NADER SAID</h3>
+                  <p className="text-lg lg:text-2xl font-bold">
                     CEO | Chief Executive Officer
                   </p>
                 </div>
@@ -67,15 +67,15 @@ const OurTeamSection = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 md:gap-40 gap-10 mt-20 md:w-10/12 w-full">
-          <div className="flex md:flex-row flex-col items-center w-full relative">
+        <div className="grid lg:grid-cols-2 lg:gap-40 gap-10 mt-20 lg:w-10/12 w-full">
+          <div className="flex lg:flex-row flex-col items-center w-full relative">
             <img
               src="/assets/imgs/Group 32.png"
-              className="md:min-w-[277px] md:h-[277px] md:absolute w-40 -left-36"
+              className="lg:min-w-[277px] lg:h-[277px] lg:absolute w-40 -left-36"
               alt=""
             />
-            <div className="min-w-full flex flex-col justify-between bg-[#FFBD59] md:pl-48 md:rounded-l-3xl rounded-2xl p-4 h-[277px] w-full">
-              <p className="text-sm md:text-base">
+            <div className="min-w-full flex flex-col justify-between bg-[#FFBD59] lg:pl-48 lg:rounded-l-3xl rounded-2xl p-4 h-[277px] w-full">
+              <p className="text-sm lg:text-base">
                 Seasoned Chief Technology Officer with over 15 years of
                 experience in driving technology innovation and excellence. His
                 extensive expertise, strategic vision and leadership skills have
@@ -83,14 +83,14 @@ const OurTeamSection = () => {
                 achiecing significant milestones.
               </p>
 
-              <div className="flex md:flex-row flex-col items-center justify-between">
+              <div className="flex lg:flex-row flex-col items-center justify-between">
                 <div className="flex flex-col">
-                  <h3 className="md:text-3xl font-bold">YAZAN ABASSI</h3>
-                  <p className="md:text-xl  font-bold">
+                  <h3 className="lg:text-3xl font-bold">YAZAN ABASSI</h3>
+                  <p className="lg:text-xl  font-bold">
                     CTO | Chief Technology Officer
                   </p>
                 </div>
-                <div className="flex gap-3 items-center md:mt-0 mt-5">
+                <div className="flex gap-3 items-center lg:mt-0 mt-5">
                   <a href="">
                     <FaFacebookF fontSize={25} />
                   </a>
@@ -104,14 +104,14 @@ const OurTeamSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:flex-row flex-col items-center w-full relative">
+          <div className="flex lg:flex-row flex-col items-center w-full relative">
             <img
               src="/assets/imgs/Clip path group (9).png"
-              className="md:w-[277px] md:h-[277px] object-cover md:absolute w-40 -left-36"
+              className="lg:w-[277px] lg:h-[277px] object-cover lg:absolute w-40 -left-36"
               alt=""
             />
-            <div className="flex justify-between flex-col bg-[#FFBD59] md:pl-48 md:rounded-l-3xl rounded-2xl p-4 md:h-[277px] w-full">
-              <p className="text-sm md:text-base">
+            <div className="flex justify-between flex-col bg-[#FFBD59] lg:pl-48 lg:rounded-l-3xl rounded-2xl p-4 lg:h-[277px] w-full">
+              <p className="text-sm lg:text-base">
                 Seasoned Chief Technology Officer with over 15 years of
                 experience in driving technology innovation and excellence. His
                 extensive expertise, strategic vision and leadership skills have
@@ -119,14 +119,14 @@ const OurTeamSection = () => {
                 achiecing significant milestones.
               </p>
 
-              <div className="flex md:flex-row flex-col items-center justify-between mt-4 md:ml-4">
+              <div className="flex lg:flex-row flex-col items-center justify-between mt-4 lg:ml-4">
                 <div className="flex flex-col">
-                  <h3 className="md:text-3xl font-bold">YAZAN ABASSI</h3>
-                  <p className="md:text-xl font-bold">
+                  <h3 className="lg:text-3xl font-bold">YAZAN ABASSI</h3>
+                  <p className="lg:text-xl font-bold">
                     CTO | Chief Technology Officer
                   </p>
                 </div>
-                <div className="flex gap-3 items-center md:mt-0 mt-5">
+                <div className="flex gap-3 items-center lg:mt-0 mt-5">
                   <a href="">
                     <FaFacebookF fontSize={25} />
                   </a>
@@ -157,7 +157,7 @@ export const TeamCard = ({
   return (
     <Link href={`/team/${id}`}>
       <div className="flex flex-col items-center justify-center gap-4">
-        <div className="lg:w-[400px] w-[300px] h-[300px] lg:h-[400px] rounded-3xl z-40 relative overflow-hidden md:px-0 px-6">
+        <div className="lg:w-[400px] w-[300px] h-[300px] lg:h-[400px] rounded-3xl z-40 relative overflow-hidden lg:px-0 px-6">
           <Image src={image || ""} fill objectFit="cover" alt="" className="" />
         </div>
         <h3 className="text-2xl font-bold">{name}</h3>

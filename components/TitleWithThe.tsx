@@ -5,20 +5,23 @@ type TitleWithTheProps = {
   title: string | React.ReactNode;
   theClassName?: string;
   titleClassName?: string;
+  containerClassName?: string;
 };
 
 const TitleWithThe = ({
   title,
   theClassName,
   titleClassName,
+  containerClassName,
 }: TitleWithTheProps) => {
   const defaultTheClassName =
-    "-:md:text-5xl -:text-2xl -:font-bold -:text-white -:translate-x-5 -:-rotate-90";
+    "-:lg:text-5xl -:text-2xl -:font-bold -:text-white -:translate-x-5 -:-rotate-90";
   const defaultTitleClassName =
-    "-:md:text-8xl -:text-5xl -:font-bold -:text-[#FFBD59]";
+    "-:lg:text-8xl -:text-5xl -:font-bold -:text-[#FFBD59]";
+  const defaultContainerClassName = "relative flex";
 
   return (
-    <div className="relative flex">
+    <div className={`${defaultContainerClassName} ${containerClassName}`}>
       <p className={`${defaultTheClassName} ${theClassName}`}>the</p>
       <h5 className={`${defaultTitleClassName} ${titleClassName}`}>{title}</h5>
     </div>

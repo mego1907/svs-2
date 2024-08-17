@@ -38,14 +38,14 @@ const FooterSection = () => {
 
   return (
     <div className="flex flex-col items-center w-full bg-header-gradient justify-center p-10 text-white">
-      <div className="md:px-32 w-full">
-        <div className="flex md:flex-row flex-col gap-8 w-full">
-          <div className="md:w-9/12 w-full flex flex-col">
-            <h2 className="md:text-6xl text-xl font-bold text-[#FFBD59] mb-4">
+      <div className="lg:px-32 w-full md:px-10">
+        <div className="flex lg:flex-row flex-col gap-8 w-full">
+          <div className="lg:w-9/12 w-full flex flex-col">
+            <h2 className="lg:text-6xl text-xl font-bold text-[#FFBD59] mb-4">
               How can we help you ?
             </h2>
 
-            <div className="flex md:w-9/12 w-full relative">
+            <div className="flex lg:w-9/12 w-full relative">
               <IoSearchOutline
                 fontSize={40}
                 fill="#FFBD59"
@@ -62,7 +62,7 @@ const FooterSection = () => {
               />
             </div>
 
-            <div className="flex flex-col md:w-96 w-full">
+            <div className="flex flex-col lg:w-96 w-full">
               <div className="p-2 bg-[#FFBD59] rounded-2xl flex flex-col w-full gap-3 mt-8">
                 <h3 className="text-white font-bold text-2xl">
                   Submit a request
@@ -113,7 +113,7 @@ const FooterSection = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-3/12 w-full flex flex-col gap-4">
+          <div className="lg:w-3/12 w-full flex flex-col gap-4">
             <div className="flex items-start justify-start gap-4">
               <FaLocationDot fontSize={70} fill="#FFBD59" />
               <p>

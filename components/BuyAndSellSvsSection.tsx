@@ -91,31 +91,31 @@ const BuyAndSellSvsSection = () => {
   }, []);
 
   return (
-    <div className="md:py-16 py-10 bg-header-gradient w-full">
-      <div className="md:p-32 px-5">
-        <div className="grid md:grid-cols-2 w-full md:gap-20 gap-10">
+    <div className="lg:py-16 py-10 bg-header-gradient w-full">
+      <div className="lg:p-32 px-5 md:px-10">
+        <div className="grid lg:grid-cols-2 w-full lg:gap-20 gap-10">
           <div className="flex justify-end">
             <img
               src="/assets/imgs/BuyAndSell.png"
               alt=""
-              className="md:scale-125"
+              className="lg:scale-125"
             />
           </div>
           <div>
             <div className="flex flex-col">
-              <p className="md:text-[9rem] text-5xl font-bold -tracking-wider md:leading-[8rem]">
+              <p className="lg:text-[9rem] text-5xl font-bold -tracking-wider lg:leading-[8rem]">
                 How to
               </p>
-              <p className="md:text-[5.5rem] text-5xl leading-8 font-bold -tracking-wider md:leading-[4rem]">
+              <p className="lg:text-[5.5rem] text-5xl leading-8 font-bold -tracking-wider lg:leading-[4rem]">
                 <span className="text-[#3AAA35]">BUY</span> &
                 <span className="text-[#FFBD59]">SELL</span>
               </p>
-              <p className="md:text-[5.5rem] text-5xl font-bold -tracking-wider md:leading-[5rem]">
+              <p className="lg:text-[5.5rem] text-5xl font-bold -tracking-wider lg:leading-[5rem]">
                 <span className="text-[#FFBD59]">SVS</span>
                 COIN
               </p>
             </div>
-            <div className="flex items-center md:justify-start jus gap-2 md:gap-8 mt-8">
+            <div className="flex items-center lg:justify-start jus gap-2 lg:gap-8 mt-8">
               <div>
                 <img src="/assets/imgs/Group 14.png" alt="" />
               </div>
@@ -129,7 +129,7 @@ const BuyAndSellSvsSection = () => {
                 <img src="/assets/imgs/Clip path group (6).png" alt="" />
               </div>
             </div>
-            <p className="md:text-lg mt-8">
+            <p className="lg:text-lg mt-8">
               Register and verify your account on the platform. Deposit funds
               using various payment methods such as bank transfer, credit/debit
               card, online wallets or cash payment. Navigate to your wallet on
@@ -158,7 +158,7 @@ const BuyAndSellCard = ({ img, title }: { img: string; title: string }) => {
         </div>
 
         <div className="flex items-center justify-center p-6">
-          <h3 className="md:text-xl text-base font-medium">{title}</h3>
+          <h3 className="lg:text-xl text-base font-medium">{title}</h3>
         </div>
       </div>
     </div>
